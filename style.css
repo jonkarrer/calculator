@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body{
+    background-color:slategrey;
+}
+
+.masterContainer{
+    display: block;
+    width: 475px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    background-color: rgba(8, 9, 78, 0.719);
+    border-radius: 5%;
+    box-shadow: 10px 10px 30px 10px;
+    
+}
+#backspace{
+    color:white;
+    width: 80px;
+    height: 72px;
+    font-size: 40px;
+    border: solid white;
+    background-color:rgba(8, 9, 78, 0.01) ;
+    cursor: pointer;
+}
+#backspace:hover{
+    color: orange;
+}
+#inputBar{
+    position: relative;
+    width:62%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 70px;
+    text-align: right;
+    font-size: 40px;
+    border: none;
+  
+}
+.gridContainer{
+    display: grid;
+    margin: 10%;
+    margin-top: 8%;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.gridContainer > button{
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 35px;
+    box-shadow: 2px 2px 2px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(236, 55, 55);
+    box-shadow: .5px .5px 1px;
+}
+#equal{
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 35px;
+    box-shadow: 2px 2px 2px;
+    border: none;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+}
+#clearAll{
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 35px;
+    box-shadow: 2px 2px 2px;
+    border: none;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+    font-size: 30px;
+}
